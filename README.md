@@ -45,8 +45,8 @@ The portfolio also includes website designs, utility apps, and a Rock Paper Scis
 ### Run Locally
 
 ```bash
-git clone https://github.com/Imaad00/My-portfolio.git
-cd My-portfolio
+git clone https://github.com/Imaad00/Imaad-labs.git
+cd Imaad-labs
 npm install
 npm start
 ```
