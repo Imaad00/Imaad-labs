@@ -1,0 +1,218 @@
+
+/********************** Services **********************/
+
+.experiences .row{
+    text-align: center;
+}
+
+.experiences .row .columns{
+    box-shadow: var(--box-shadow);
+    border: var(--borde);
+    border-bottom: 1rem solid var(--white);
+    margin: 0.5rem;
+}
+
+/* Achievements and Education hover effect */
+body.light #achievements .row .columns:hover,
+body.light #education .row .columns:hover {
+  background: var(--black);
+  color: var(--light-color);
+  border-bottom: 1rem solid var(--green);
+}
+
+/* Achievements and Education hover effect - Dark Mode */
+body.dark #achievements .row .columns:hover,
+body.dark #education .row .columns:hover {
+  background: #111111;
+  color: var(--light-color);
+  border-bottom: 1rem solid var(--green);
+}
+
+.experiences .row .columns:hover{
+    background: var(--black);
+    color: var(--light-color);
+    border-bottom: 1rem solid var(--black);
+}
+
+.experiences .row i{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--black);
+}
+
+.experiences .row .columns:hover i{
+    color: var(--light-color);
+}
+
+.experiences .row .columns:hover h3{
+    color: var(--white);
+}
+
+
+/********************** Experiences section **********************/
+
+.site-experience .row{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    text-align: center;
+    justify-content: center!important;
+    margin: 3rem auto;
+}
+
+.site-experience .row .columns{
+    box-shadow: var(--box-shadow);
+    border: var(--borde);
+    margin: 0;
+    transform: scale(0.9)!important;
+    justify-content: center;
+}
+
+
+.site-experience .columns h3{
+    text-transform: uppercase;
+}
+
+.site-experience .columns .sub-title{
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.site-experience .columns .numero span {
+    position: relative;
+    font-size: 2.5rem;
+    top: -.7em;
+}
+
+.site-experience .columns .numero{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: var(--black);
+}
+
+.site-experience .columns .ul-cards-experience{
+    margin: 0 0 2rem 0;
+}
+
+
+.site-experience .columns li {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+
+.site-experience .row .columns li i {
+    font-size: 1.5rem;
+    padding-right: 0.2rem;
+    color: var(--black);
+}
+
+
+.site-experience .row .recomendado{
+    background: var(--black);
+    transform: scale(1.1)!important;
+}
+
+.site-experience .row .recomendado .sub-title,
+.site-experience .row .recomendado .numero{
+    color: var(--white);
+}
+
+.site-experience .row .recomendado li,
+.site-experience .row .recomendado li i{
+    color: var(--light-color);
+}
+
+.heading-experience.btn-experience{
+    display: none!important;
+}
+
+
+/********************** Experiences section **********************/
+
+.questions .expandable-container {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.questions .expandable-container .expandable {
+    background: #fff;
+    margin-bottom: 1.5rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.questions .expandable-container .expandable:last-child {
+    margin-bottom: .5rem;
+}
+
+.questions .expandable-container .expandable.active .expandable-heading {
+    background: var(--black);
+}
+
+.questions .expandable-container .expandable.active .expandable-heading h3 {
+    color: var(--white);
+}
+
+.questions .expandable-container .expandable.active .expandable-heading i {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    color: var(--white);
+}
+
+.questions .expandable-container .expandable.active .accordioin-content {
+    display: block;
+    color: var(--black);
+}
+
+.questions .expandable-container .expandable .expandable-heading {
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: var(--white);
+    cursor: pointer;
+}
+
+.questions .expandable-container .expandable .expandable-heading h3,
+.questions .expandable-container .expandable .expandable-heading i {
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.questions .expandable-container .accordioin-content {
+    padding: 2rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #666;
+    text-transform: none;
+    display: none;
+    -webkit-animation: fadeIn .2s linear;
+            animation: fadeIn .2s linear;
+}
+
+
+/********************** Media Q **********************/
+
+@media (max-width: 760px) {
+    .site-experience .row{
+        grid-template-columns: 90%;
+    }
+    
+    .site-experience .row .columns{
+        transform: scale(1)!important;
+    }
+
+    .site-experience .row .recomendado{
+        transform: scale(1)!important;
+    }
+}
+

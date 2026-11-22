@@ -1,0 +1,509 @@
+/********************** Projects **********************/
+
+#projects .project-site {
+  overflow-x: hidden !important;
+}
+.content1 {
+  /*background: #010101;
+  width: 100vw;
+  height: 100vh;*/
+  background-position: center center;
+  background-size: cover;
+}
+
+.projects .projects-slider {
+  padding-bottom: 5rem;
+}
+
+.projects .projects-slider .box {
+  text-align: center;
+  width: 30rem;
+}
+
+.projects .projects-slider .box img {
+  width: 100%;
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+.projects .projects-slider .box .content {
+  transform: scale(0);
+  padding-top: 1rem;
+  text-transform: none !important;
+}
+
+.projects .projects-slider .swiper-slide-active img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.projects .projects-slider .swiper-slide-active .content {
+  transform: scale(1);
+}
+
+.projects .projects-slider .box .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.projects .projects-slider .box .content p {
+  font-size: 1.6rem;
+  padding-top: 1.5rem;
+  color: var(--light-color-white);
+  text-transform: none !important;
+}
+
+.projects .projects-slider .box .content p span {
+  color: var(--black);
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.projects .projects-slider .box .content a {
+  margin: 0.5rem;
+}
+
+.projects .projects-slider .box .content .tecnologias {
+  margin-bottom: 2rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--black);
+}
+
+.portfolio-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0;
+}
+
+/********************** Projects Section **********************/
+
+.mas-proyect {
+  margin-top: 8rem;
+}
+
+.nav-proj {
+  display: flex;
+  justify-content: center;
+  right: 0;
+}
+
+.nav-proj a {
+  margin: 0 2rem;
+}
+.projects__grid {
+  display: grid;
+  grid-template-areas:
+    "img-1 	img-1	img-1	img-2   img-2	img-2"
+    "img-3	img-3	img-4	img-4   img-5	img-5"
+    "img-6	img-6	img-7	img-7   img-8	img-8"
+    "img-9	img-9	img-10	img-10  img-11	img-11"
+    "img-12	img-12	img-13	img-13  img-14	img-14"
+    "img-15	img-15	img-16	img-16  img-17	img-17";
+  gap: 10px;
+  margin-top: 6rem;
+}
+
+.projects-none {
+  display: none;
+}
+
+.projects__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.projects__item:nth-of-type(1) {
+  grid-area: img-1;
+}
+.projects__item:nth-of-type(2) {
+  grid-area: img-2;
+}
+
+.projects__item:nth-of-type(3) {
+  grid-area: img-3;
+}
+
+.projects__item:nth-of-type(4) {
+  grid-area: img-4;
+}
+
+.projects__item:nth-of-type(5) {
+  grid-area: img-5;
+}
+
+.projects__item:nth-of-type(6) {
+  grid-area: img-6;
+}
+
+.projects__item:nth-of-type(7) {
+  grid-area: img-7;
+}
+
+.projects__item:nth-of-type(8) {
+  grid-area: img-8;
+}
+
+.projects__item:nth-of-type(9) {
+  grid-area: img-9;
+}
+
+.projects__item:nth-of-type(10) {
+  grid-area: img-10;
+}
+
+.projects__item:nth-of-type(11) {
+  grid-area: img-11;
+}
+
+.projects__item:nth-of-type(12) {
+  grid-area: img-12;
+}
+
+.projects__item:nth-of-type(13) {
+  grid-area: img-13;
+}
+
+.projects__item:nth-of-type(14) {
+  grid-area: img-14;
+}
+.projects__item:nth-of-type(15) {
+  grid-area: img-15;
+}
+.projects__item:nth-of-type(16) {
+  grid-area: img-16;
+}
+
+.mas-proyect .btn-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+/********************** Modal **********************/
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.modal-container {
+  max-width: 700px;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  margin: 5rem 2rem 0 0;
+}
+
+.boton-cerrar {
+  position: absolute;
+  top: 3px;
+  right: 2px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+  color: var(--black);
+}
+
+.boton-cerrar svg {
+  width: 100%;
+  height: 100%;
+}
+
+.eins-modal-preview {
+  max-width: 350px;
+  width: 90%;
+  margin: 0 auto;
+}
+.eins-modal-preview img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+  gap: 2rem;
+}
+.eins-modal-text p {
+  font-size: 1.7rem;
+}
+
+.eins-modal-text-2 {
+  padding: 5rem 0 2rem;
+  font-size: 1.5rem !important;
+}
+
+.eins-modal-text-2 a {
+  color: var(--secundario);
+}
+
+.eins-modal-tec img {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem 2rem 1rem 0;
+}
+
+.eins-modal-tec-2 img {
+  width: 2.8rem;
+  height: 3rem;
+  margin: 1rem 1.7rem 1rem 0;
+}
+
+.eins-modal-text p {
+  padding: 0.5rem 0;
+  text-transform: none;
+}
+
+.eins-modal-text-3 img:hover {
+  transform: scale(1.1);
+}
+
+.eins-modal-text-2,
+.eins-modal-text-3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+/********************** Media Q **********************/
+
+@media (max-width: 760px) {
+  .eins-modal-preview {
+    max-width: 200px;
+    width: 70%;
+  }
+
+  .eins-modal-text p {
+    font-size: 1.5rem;
+  }
+
+  .eins-modal-text-2 {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+  }
+
+  .eins-modal-text-2,
+  .eins-modal-text-3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .projects__grid {
+    grid-template-areas:
+      "img-1 img-1"
+      "img-2 img-2"
+      "img-3 img-4"
+      "img-5 img-6"
+      "img-7 img-8"
+      "img-9 img-10"
+      "img-12 img-11"
+      "img-13 img-14"
+      "img-15 img-16";
+  }
+
+  .projects__item img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 450px) {
+  .modal-container {
+    padding: 2rem;
+  }
+  .eins-modal-preview {
+    width: 60%;
+  }
+}
+
+/* Consistent 16:9 project previews on homepage, gallery, and modal. */
+.projects .projects-slider .box {
+  width: 100%;
+  min-width: 0;
+}
+.projects .projects-slider .box > img,
+.portfolio-project-card .projects__img,
+.portfolio-project-detail > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  object-fit: contain;
+  background: #111827;
+  border-radius: 10px;
+}
+.projects .projects-slider .box > img {
+  opacity: 1;
+  transform: none;
+}
+.projects .projects-slider .swiper-slide-active > img {
+  transform: none;
+}
+.projects .projects-slider .box .content1 {
+  padding: 1.2rem 0 2rem;
+}
+.projects .projects-slider .box .content1 h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+.projects .projects-slider .box .content1 p {
+  font-size: 1.4rem;
+  color: var(--light-color-white);
+  text-transform: none;
+  margin: 0.7rem 0;
+}
+.projects .projects-slider .box .content1 .tecnologias {
+  font-size: 1.2rem;
+}
+.portfolio-project-grid {
+  display: grid;
+  grid-template-areas: none;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  width: min(1200px, 92%);
+  margin: 4rem auto;
+}
+.portfolio-project-grid .projects__item {
+  grid-area: auto !important;
+}
+.portfolio-project-card {
+  display: block;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  min-width: 0;
+}
+.portfolio-project-card-title {
+  display: block;
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--black);
+}
+.portfolio-project-card:hover .projects__img {
+  filter: brightness(1.1);
+}
+.nav-proj {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.nav-proj a.active {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+.overlay {
+  overflow-y: auto;
+  padding: 2rem;
+}
+.modal-container {
+  width: min(720px, 100%);
+  max-width: 720px;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  margin: auto;
+  padding: 2.5rem;
+}
+.boton-cerrar {
+  font-size: 2.8rem;
+  line-height: 1;
+  z-index: 2;
+}
+.portfolio-project-detail > img {
+  margin-bottom: 2rem;
+}
+.portfolio-project-detail h2 {
+  font-size: 2.4rem;
+  color: var(--black);
+}
+.portfolio-project-detail p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-transform: none;
+  margin-top: 1rem;
+  color: #333;
+}
+.portfolio-detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+@media (max-width: 900px) {
+  .portfolio-project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .portfolio-project-grid {
+    grid-template-columns: 1fr;
+  }
+  .modal-container {
+    padding: 1.5rem;
+  }
+}
+
+/* Project text contrast: light theme defaults */
+.projects .projects-slider .box .content1 h3,
+.portfolio-project-card-title {
+  color: #172033;
+}
+.projects .projects-slider .box .content1 p,
+.projects .projects-slider .box .content1 .tecnologias {
+  color: #374151;
+}
+
+/* Support common dark-mode classes/attributes on html, body or an app wrapper. */
+:is(html, body, #root, .App).dark .projects .projects-slider .box .content1 h3,
+:is(html, body, #root, .App).dark-mode
+  .projects
+  .projects-slider
+  .box
+  .content1
+  h3,
+[data-theme="dark"] .projects .projects-slider .box .content1 h3,
+[data-theme="dark"] .portfolio-project-card-title,
+:is(html, body, #root, .App).dark .portfolio-project-card-title,
+:is(html, body, #root, .App).dark-mode .portfolio-project-card-title {
+  color: #f9fafb;
+}
+
+:is(html, body, #root, .App).dark .projects .projects-slider .box .content1 p,
+:is(html, body, #root, .App).dark-mode
+  .projects
+  .projects-slider
+  .box
+  .content1
+  p,
+[data-theme="dark"] .projects .projects-slider .box .content1 p {
+  color: #d1d5db;
+}
+
+/* Project category tabs and heading must contrast in dark mode too. */
+:is(html, body, #root, .App).dark .nav-proj a,
+:is(html, body, #root, .App).dark-mode .nav-proj a,
+[data-theme="dark"] .nav-proj a {
+  color: #f3f4f6;
+}

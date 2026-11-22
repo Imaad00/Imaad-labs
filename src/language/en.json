@@ -1,0 +1,160 @@
+{
+    "home": "Home",
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+
+
+    "site-web": "websites",
+    "games": "games",
+
+
+    "greeting": "Hello",
+    "name": "I am Imaad Sharieff",
+    "role": "Software Developer | Backend & AI/ML",
+
+    
+    "hobbies": "Hobbies: ",
+    "hobbies-value": "Gaming, Travelling",
+    "email": "Email: ",
+
+
+    "im": "who I am",
+    "description": "My name is Mohammed Imaad Sharieff and I am a Backend Developer.",
+    "my-description": "I am currently pursuing my M.tech in Computer Science and Engineering at CMR University.",
+    "years": "Age: ",
+    "from": "From: ",
+    "btn-know-more": "Read more",
+    "tools": "Tools",
+
+    "technical-skills": "Technical Skills",
+    "programming-languages": "Programming Languages",
+    "frameworks-technologies": "Frameworks & Technologies",
+    "databases-tools": "Databases & Tools",
+
+    "experiences": "Experiences",
+
+    "experience-title": "Experience",
+    "experience-role": "Software Development & Full-Stack Internships",
+    "experience-description": "Gained practical industry experience at Bluestock Fintech and LearnNex, working on software development, machine learning, REST APIs, and full-stack applications.",
+    "experience-duration": "2024 – 2025",
+
+    "achievements-title": "Achievements",
+    "achievements-highlight": "Research Publication & Awards",
+    "achievements-description": "Published a research paper on Quantum Convolutional Neural Networks, received the Best Innovation Project Award, and secured 1st place in the CodeStorm 25 Hackathon.",
+    "achievements-duration": "2025 – 2026",
+
+    "education-title": "Education",
+    "education-degree": "B.E. & M.Tech in Computer Science",
+    "education-description": "Completed my B.E. in Computer Science and Engineering at Dayananda Sagar College of Engineering and currently pursuing my M.Tech at CMR University.",
+    "education-duration": "2022 – Present",
+
+
+    "professional-experience": "Professional Experience",
+    "achievements": "Achievements",
+    "education": "Education",
+
+    "exp-bluestock-title": "Software Development Engineer Intern",
+    "exp-bluestock-org": "Bluestock Fintech",
+    "exp-bluestock-desc": "Worked on developing intelligent software solutions that simplify financial data analysis. This experience helped me strengthen my backend development, data handling, and problem-solving skills.",
+    "exp-bluestock-date": "June 2025 – August 2025",
+
+    "exp-learnnex-title": "Full-Stack Developer Intern",
+    "exp-learnnex-org": "LearnNex",
+    "exp-learnnex-desc": "Gained practical experience building web applications and connecting frontend interfaces with backend services. It helped me understand the complete development process and improve my technical skills.",
+    "exp-learnnex-date": "August 2024 – October 2024",
+
+    "achievement-paper-title": "Research Paper Publication",
+    "achievement-paper-org": "International Conference",
+    "achievement-paper-desc": "Published research exploring the use of quantum computing and deep learning for tuberculosis detection, contributing to the growing field of AI-powered healthcare.",
+    "achievement-paper-date": "June 2026",
+
+    "achievement-award-title": "Best Innovation Project",
+    "achievement-award-org": "Project Open Day",
+    "achievement-award-desc": "Received recognition for developing an innovative healthcare solution using quantum machine learning, combining research with practical implementation.",
+    "achievement-award-date": "May 2026",
+
+    "achievement-hackathon-title": "CodeStorm 25 Winner",
+    "achievement-hackathon-org": "Christ Academy Institute for Advanced Studies",
+    "achievement-hackathon-desc": "Secured first place in a 48-hour hackathon, demonstrating creativity, teamwork, and the ability to develop solutions under time constraints.",
+    "achievement-hackathon-date": "March 2025",
+
+    "education-mtech-title": "Master of Technology",
+    "education-mtech-university": "CMR University",
+    "education-mtech-course": "Computer Science and Engineering",
+    "education-mtech-duration": "2026 – Present",
+
+    "education-be-title": "Bachelor of Engineering",
+    "education-be-university": "Dayananda Sagar College of Engineering",
+    "education-be-course": "Computer Science and Engineering",
+    "education-be-duration": "2022 – 2026",
+
+    "education-puc-title": "Pre-University Course",
+    "education-puc-university": "St. Joseph's Pre-University College",
+    "education-puc-course": "Pre-University Education",
+    "education-puc-duration": "Completed in 2022",
+
+
+    "btn-more-projects": "More projects",
+
+
+    "contact-info": "Contact me by: ",
+
+
+    "footer-info": "Page created by Imaad",
+
+
+    "about-info-1": "Hi, I'm Mohammed Imaad Sharieff, a Software Developer and AI/ML enthusiast currently pursuing my M.Tech in Computer Science and Engineering at CMR University. I completed my B.E. in Computer Science and Engineering at Dayananda Sagar College of Engineering. My interests lie in software development, backend engineering, and artificial intelligence, with a focus on building practical and scalable applications.",
+    "about-info-2": "I have gained industry experience through internships at Bluestock Fintech as a Software Development Engineer Intern and LearnNex as a Full-Stack Developer Intern. During these internships, I worked on machine learning-based financial analysis, RESTful APIs, responsive web applications, and database integration. I enjoy learning new technologies and strengthening my programming and problem-solving skills through hands-on development.",
+    "about-info-3": "I have developed projects involving Generative AI, natural language processing, full-stack development, and Quantum Machine Learning. Some of my notable projects include an AI-powered Medical Chatbot, a WhatsApp Product Review Collector, and Q-BacilliNet, a hybrid quantum-classical model for tuberculosis detection. I also published a research paper on Quantum Convolutional Neural Networks and received the Best Innovation Project award. I am passionate about applying technology to solve real-world problems and continuously expanding my technical expertise.",
+    "btn-resume": "Download Resume",
+
+
+    "apps": "Apps",
+    "project-technologies": "Technologies:",
+    "project-live-demo": "Live Demo",
+    "project-repository": "Repository",
+    "project-view-details": "View details for",
+    "project-medibot-title": "MediBot — Medical RAG Chatbot",
+    "project-medibot-description": "Medical question-answering assistant that retrieves information from an indexed medical encyclopedia and cites supporting sources.",
+    "project-resume-title": "Resume Matcher",
+    "project-resume-description": "Compares resumes against job descriptions and displays extracted information and similarity scores.",
+    "project-whatsapp-title": "WhatsApp Review Collector",
+    "project-whatsapp-description": "Collects product reviews through a guided WhatsApp conversation and stores the responses for review.",
+    "project-ipo-title": "IPO Listings",
+    "project-ipo-description": "IPO listing dashboard with company search, status filters and detail views.",
+    "project-phishing-title": "AI Phishing Detection",
+    "project-phishing-description": "Interface for analyzing email text for potential phishing attempts.",
+    "project-expense-title": "Expense Tracker",
+    "project-expense-description": "Mobile expense-tracking interface with transaction entry and category breakdowns.",
+    "project-currency-title": "Currency Converter",
+    "project-currency-description": "Converts amounts between selected currencies through a simple exchange-rate interface.",
+    "project-task-title": "Minimalist Task Tracker",
+    "project-task-description": "Manage active and archived tasks with edit, complete and delete actions.",
+    "project-todo-title": "To-Do List",
+    "project-todo-description": "Lightweight task list for adding and removing daily to-dos.",
+    "project-chatbot-title": "Chatbot",
+    "project-chatbot-description": "Chat-style interface for submitting questions and viewing responses.",
+    "project-qr-title": "QR Code Project",
+    "project-qr-description": "QR code project preview.",
+    "project-devcation-title": "Devcation 2025",
+    "project-devcation-description": "Event landing page with navigation, registration call-to-action and event highlights.",
+    "project-restaurant-title": "Restaurant & Dining Website",
+    "project-restaurant-description": "Restaurant discovery and dining-themed landing page.",
+    "project-pizza-title": "Pizza Time",
+    "project-pizza-description": "Pizza restaurant website with menu, blog, account and cart navigation.",
+    "project-amazon-title": "Amazon Clone",
+    "project-amazon-description": "E-commerce homepage inspired by Amazon, featuring product categories and search.",
+    "project-iphone-title": "iPhone Product Page",
+    "project-iphone-description": "Product presentation page inspired by Apple’s iPhone 15 Pro design.",
+    "project-irctc-title": "Railway Booking Interface",
+    "project-irctc-description": "Train-search and ticket-booking themed website interface.",
+    "project-spotify-title": "Spotify Clone",
+    "project-spotify-description": "Music-player interface with playlist and playback controls.",
+    "project-uiux-title": "GPT-3 Landing Page",
+    "project-uiux-description": "Modern AI-themed promotional landing page with responsive-style sections.",
+    "project-rps-title": "Rock Paper Scissors",
+    "project-rps-description": "Interactive rock-paper-scissors game against the computer with score tracking."
+
+}
